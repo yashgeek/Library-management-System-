@@ -1,0 +1,54 @@
+.book-card {
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #fff;
+}
+
+.book-card.borrowed {
+  background-color: #f0f0f0;
+  color: #666;
+  border-color: #ccc;
+}
+
+.book-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.book-card p {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.book-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.book-card.borrowed button {
+  background-color: #dc3545; /* Red for return */
+}
+
+.book-card .status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8em;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #28a745; /* Green for available */
+  color: white;
+}
+
+.book-card.borrowed .status {
+  background-color: #ffc107; /* Yellow for borrowed */
+  color: #333;
+}

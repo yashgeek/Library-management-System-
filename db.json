@@ -1,0 +1,35 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isBorrowed": false
+    },
+    {
+      "id": "2",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isBorrowed": false
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "isBorrowed": false
+    },
+    {
+      "id": "4",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isBorrowed": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "password1"
+    }
+  ]
+}
